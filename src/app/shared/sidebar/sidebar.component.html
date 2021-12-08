@@ -1,0 +1,14 @@
+<h1>Busquedas</h1>
+
+<div class="row">
+    <div class="col-10">
+        <li>
+            <ul routerLink="/pais">Buscar país</ul>
+            <ul routerLink="/region">Por region</ul>
+            <ul routerLink="/capital">Por capital</ul>
+        </li>
+    </div>
+    <div class="col-6" id="busqueda">
+        <input type="text" (keydown)="addBusqueda($event)" />
+    </div>
+</div>
